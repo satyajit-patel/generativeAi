@@ -1,0 +1,14 @@
+// backend
+npm init
+npm install express
+npm i body-parser
+npm install cors
+npm install dotenv 
+npm install @google/generative-ai
+node index.js
+
+// frontend
+npx create-react-app frontend
+cd frontend
+npm install axios
+npm start
