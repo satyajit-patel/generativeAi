@@ -2,6 +2,10 @@
 
 GenerativeAI is a powerful full-stack application that leverages advanced language models to generate creative and coherent text based on user prompts. This project combines a React frontend with an Express backend to provide a seamless experience for users to interact with the AI model.
 
+
+**<p align='center'>You can find the website live <a href="https://blue-river-0d0a96b00.5.azurestaticapps.net">here</a></p>**
+
+
 ## Features
 
 - **Text Generation**: Input a prompt and receive a generated text response.
@@ -18,7 +22,7 @@ GenerativeAI is a powerful full-stack application that leverages advanced langua
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/generativeai.git
+    https://github.com/satyajit-patel/generativeAi.git
     cd generativeai
     ```
 
