@@ -3,7 +3,7 @@
 GenerativeAI is a powerful full-stack application that leverages advanced language models to generate creative and coherent text based on user prompts. This project combines a React frontend with an Express backend to provide a seamless experience for users to interact with the AI model.
 
 
-**<p align='center'>You can find the website live <a href="https://blue-river-0d0a96b00.5.azurestaticapps.net">here</a></p>**
+**<p align='center'>You can find the website live <a href="https://gemini-frontend.onrender.com">here</a></p>**
 
 
 ## Features
@@ -94,3 +94,6 @@ generativeai/
 │   └── ...
 │
 └── README.md
+
+
+**<p align='center'>You can find the website live <a href="https://gemini-frontend.onrender.com">here</a></p>**
