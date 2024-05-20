@@ -94,6 +94,3 @@ generativeai/
 │   └── ...
 │
 └── README.md
-
-
-## Find the website live [here](https://gemini-frontend.onrender.com/)
