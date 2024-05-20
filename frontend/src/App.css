@@ -1,70 +1,60 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #ffafbd, #ffc3a0); /* Gradient background */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   padding: 20px;
-  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+h1 {
   color: #333;
 }
 
 textarea {
-  width: 60%; /* Consistent width for both textareas */
+  margin: 10px 0;
   padding: 10px;
-  font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-bottom: 20px;
+  width: 60%;
   resize: none;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for better appearance */
 }
 
 button {
+  margin: 10px;
   padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #d6336c; /* Dark pinkish color */
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s;
-  margin: 10px; /* Add margin to separate buttons */
+  background-color: #333;
+  color: white;
 }
 
 button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
+  background-color: #888;
 }
 
-button:not(:disabled):hover {
-  background-color: #b92a56; /* Darker shade for hover effect */
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.responseArea {
+  margin-top: 20px;
+}
+
+.responseTextarea {
+  width: 60%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  background-color: #f9f9f9;
 }
 
 .error {
   color: red;
-  margin-top: 20px;
-}
-
-.responseArea {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.responseTextarea {
-  width: 80%; /* Increased width */
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff;
-  resize: none;
-  white-space: pre-wrap; /* Ensures text wraps within the container */
-  word-wrap: break-word; /* Breaks long words if needed */
-  margin-bottom: 10px; /* Add margin to separate from the stop button */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for better appearance */
+  margin-top: 10px;
 }
